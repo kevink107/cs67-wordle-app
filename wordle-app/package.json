@@ -9,12 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^48.0.0",
+    "expo": "^46.0.21",
     "expo-clipboard": "~4.1.2",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
     "react-native": "0.71.3",
+    "react-native-fs": "^2.20.0",
+    "react-native-reanimated": "^3.1.0",
     "react-native-web": "~0.18.11"
   },
   "devDependencies": {
