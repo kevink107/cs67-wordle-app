@@ -20,7 +20,7 @@ const words = ["world", "would", "hello", "words", "large", "write", "first", "w
 
 // Generate random word from the array above
 const randomIndex = Math.floor(Math.random() * words.length);
-const word = words[randomIndex];
+const word = "hello";
 const letters = word.split("");
 
 // ***** GAME ***** //
