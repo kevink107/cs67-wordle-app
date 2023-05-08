@@ -20,10 +20,10 @@ const words = ["world", "would", "hello", "words", "large", "write", "first", "w
 
 // Generate random word from the array above
 const randomIndex = Math.floor(Math.random() * words.length);
-const word = "hello";
+const word = words[randomIndex];
 const letters = word.split("");
 
-// ***** GAME ***** //git 
+// ***** GAME ***** //
 const Game = () => {
   const [rows, setRows] = useState(
     new Array(NUMBER_OF_TRIES).fill(new Array(letters.length).fill(""))
