@@ -23,7 +23,7 @@ const randomIndex = Math.floor(Math.random() * words.length);
 const word = "hello";
 const letters = word.split("");
 
-// ***** GAME ***** //
+// ***** GAME ***** //git 
 const Game = () => {
   const [rows, setRows] = useState(
     new Array(NUMBER_OF_TRIES).fill(new Array(letters.length).fill(""))
